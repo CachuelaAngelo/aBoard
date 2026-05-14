@@ -1,0 +1,29 @@
+/* Profile Page Styles */
+
+:host {
+  display: block;
+}
+
+/* Smooth transitions for interactive elements */
+a {
+  transition: color 0.3s ease;
+}
+
+/* Avatar hover effect */
+img {
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+/* Card hover effects */
+.shadow-md {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.shadow-md:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
