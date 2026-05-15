@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-profile-page',
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   templateUrl: './profile-page.component.html',
   styleUrl: './profile-page.component.css',
 })
